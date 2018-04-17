@@ -27,3 +27,10 @@ remote| 远程加载url,在没有配置msg时有效| ""
 openEvent | 弹窗打开后的会回调函数 | null
 closeEvent | 弹窗关闭后的回调函数 |null
 okEvent | 点击确定按钮的回调函数 |null
+##### 3、扩展模板
+```
+$.fn['myModal'].extendTemplate({
+      type:"",//你需要定义一个type,然后在上面使用时传入定义的type
+      template:""//自定义弹框内容（貌似没有多大作用）
+})
+```
