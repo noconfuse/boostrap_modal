@@ -1,5 +1,5 @@
 # bootstrap_modal
-
+猛戳[这里](https://www.idealismzone.com/demo/bootstrap_modal/)
 ### 说明
  * 1、基于bootstrap的模态框增加一些扩展
  * 2、弃用bootstrap的遮罩，可以自定义遮罩，但是，原遮罩对应的事件的并未实现，请谨慎使用
